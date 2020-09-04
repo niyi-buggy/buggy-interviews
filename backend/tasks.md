@@ -49,9 +49,9 @@ class Driver:
     balance = self.owes - total_paid
     return balance
 
-driver_a = Driver(first_name="Robert",last_name="Lang",email="robert@gmail.com",phone="9171231122")
+driver_a = Driver(first_name="Robert",last_name="Lang",email="robert@some_email.com",phone="9171231122")
 driver_a.owes = 56
-driver_b = Driver(first_name="Robert",last_name="Langdon",email="langdon@gmail.com",phone="3476567544")
+driver_b = Driver(first_name="Robert",last_name="Langdon",email="langdon@some_email.com",phone="3476567544")
 driver_b.owes = 450
 print(f"Driver A's name is {driver_a.first_name} {driver_a.last_name}, Balance is ${driver_a.get_balance()}")
 print(f"Driver B's name is {driver_b.first_name} {driver_b.last_name}, Balance is ${driver_b.owes}")
