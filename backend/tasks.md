@@ -2,6 +2,8 @@
 
 ### Instructions
 This document contains coding challenges to access a prospective developer's fit withing our organization.
+As discussed, please find the attached coding challenge and email your solution to: niyi@joinbuggy.com, ziafat@joinbuggy.com
+We'll get back to you with our decision after the review process.
 
 Table Name: 'transaction'
 
@@ -14,7 +16,7 @@ Table Name: 'transaction'
 
 **Database**
 
-Write a query to return all payments from the transaction table and group by driver_name.
+Write a query to return all transactions from the transaction table and group by driver_name.
 How would you improve the table to be more efficient?
 
 `[solution]`
