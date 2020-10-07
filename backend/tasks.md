@@ -31,7 +31,7 @@ Problem description:
   
   If the two drivers send payments to us, with an optional memo field,
   how do we handle matching the payments to the right driver?
-  Please describe why you arrived at your solution.
+  Please describe, with code and detailed explanation, your solution.
 '''
 
 ```python
