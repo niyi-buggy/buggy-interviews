@@ -61,6 +61,8 @@ print("\n")
 
 new_payment_1 = {"type":"Zelle","amount":300,"date":"05-07-2020","memo":"Robert Langdon 546432"}
 new_payment_2 = {"type":"Zelle","amount":450,"date":"05-07-2020","memo":""}
+payments = [new_payment_1,new_payment_2]
+print("Unallocated payments:",payments)
 
 ```
 
